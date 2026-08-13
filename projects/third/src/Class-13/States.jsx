@@ -1,34 +1,24 @@
-import {useState} from "react";
-
-function States() {
-    const [count, setCount] = useState(0);
-
-    const increment = () => {
-        setCount(count + 1);
-    }
-    let color = "black";
-    if (count < 0) {
-        color = "red";
-    }  
-    else if (count > 0) {
-        color = "green";
-    }
+function Props({name, age}){
+console.log(name)
+console.log(age)
     return (
         <>
-            <h1>States : </h1>
+            <h1>Props :</h1>
             <ul>
-                <li>States are the objects </li>
-                <li>States are the "properties" </li>
-                <li>States acts as a "Parameter" inside a function where as acts as html attribute inside jsx </li>
-                <li>States are unidirectional means we can send the states from parant component. </li>
-                <li>States are mutable</li>
+                <li>Props are the objects</li>
+                <li>Props stands for "Properties"</li>
+                <li>props acts as a "parameter" inside a function whereas acts as a html attribute inside JSX</li>
+                <li>Props are unidirectional means we can send the props from parent component to child component.</li>
+                <li>props are immutable</li>
             </ul>
-            <h1 style={{ color: color }}>{count}</h1>
-            <button onClick={increment}>Increment</button>
-            <button onClick={() => setCount(count - 1)}>Decrement</button>
-            <button onClick={() => setCount(0)}>Reset</button>
+
+            {/* <h1>{props.name}</h1>
+            <h1>{props.age}</h1> */}
+
+            <h1>{name}</h1>
+            <h1>{age}</h1>
         </>
     )
 }
 
-export default States;
+export default Props;

@@ -1,25 +1,24 @@
-import {useState} from "react";
+let a = 10;
 
-function Props({name, age}) {
-    console.log(name)
-    console.log(age)
-    return (
-        <>
-            <h1>Props : </h1>
-            <ul>
-                <li>props are the objects </li>
-                <li>props stands for the "properties" </li>
-                <li>props acts as a "Parameter" inside a function where as acts as html attribute inside jsx </li>
-                <li>props are unidirectional means we can send the props from parant component. </li>
-                <li>props are immutable</li>
-            </ul>
-            {/* <h1>{props.name}</h1>
-                <h1>{props.age}</h1> */}
 
-            <h1>{name}</h1>
-            <h1>{age}</h1>
-        </>
-    )
+
+let arr = [10,20,30];
+
+// array destructuring....
+let [x,y,z] = arr;
+console.log(x)
+console.log(y)
+console.log(z)
+
+// object destructuring....
+let obj = {
+    name : "mira",
+    lname : "tiwari",
+    age : 22
 }
 
-export default Props;
+let {name, lname, age} = obj
+
+console.log(name)
+console.log(lname)
+console.log(age)
