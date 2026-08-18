@@ -1,14 +1,12 @@
 import React from "react";
-import Props from "./Class-13/Props";
-import States from "./Class-13/States";
-import Form2 from "./class-14/Form2";
-
+import Cart from "./Class-13_Hooks-useStates/Shopping-Cart/Cart"
+import Cart1 from "./Class-13_Hooks-useStates/Shopping-Cart/Cart1"
 import Review from "./reviews/Review";
 
 function App(){
   return (
     <>
-      <Review />
+      <Cart1 />
     </>
   )
 }
