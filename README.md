@@ -4,21 +4,7 @@
 
 ## 🚀 MU - Complete MERN Stack Training Repository
 
-Welcome to the **MU (MERN University)** repository.
 
-I am **Vinay Pratap Singh Sengar**, a **MERN Stack Developer & Technical Trainer** with **5.5+ years of development experience** and **4.5+ years of training experience**. This repository is created to provide **complete hands-on training for the MERN Stack** from **beginner to advanced level**.
-
----
-
-## 👨‍🏫 About the Trainer
-
-**Vinay Pratap Singh Sengar**
-
-* MERN Stack Developer (5.5+ Years)
-* Technical Trainer (4.5+ Years)
-* Trainer for **Java, C++, JavaScript, React, Node.js, Express.js, MongoDB, and DSA**
-* Focused on **industry-oriented practical learning**
-* GitHub: **Vinay-Pratap-Singh-Sengar**
 
 ---
 
@@ -227,7 +213,7 @@ After completing this repository, students will be able to:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/Vinay-Pratap-Singh-Sengar/MU.git
+git clone https://github.com/bhargavlimbani/full-stack-training.git
 ```
 
 ### Open the project
@@ -276,11 +262,11 @@ Students are encouraged to:
 
 # 📧 Contact
 
-**Vinay Pratap Singh Sengar**
+**Bhargav_Limbani**
 
-* 💼 MERN Stack Developer & Trainer
-* 🌐 GitHub: https://github.com/Vinay-Pratap-Singh-Sengar
-* 💼 LinkedIn: https://www.linkedin.com/in/vinaypratap1711/
+* 💼 MERN Stack Developer 
+* 🌐 GitHub: https://github.com/bhargavlimbani
+* 💼 LinkedIn: https://www.linkedin.com/in/bhargav-limbani-111977286/
 
 ---
 
